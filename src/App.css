@@ -1,3 +1,60 @@
-.App {
+* {
+  background-image: url('./images/background.png');
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header {
+  color: white;
+  margin-top: 20px;
   text-align: center;
+}
+
+.subTitle {
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.blocoPlaneta {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+
+}
+
+.imgPlaneta {
+  width: 100px;
+
+}
+
+.imgPlaneta:hover {
+  width: 200px;
+
+}
+
+.misson {
+  color: white;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.itemMission {
+  border: 5px solid rgba(255, 255, 255, 0.281);
+  height: 165px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+
 }

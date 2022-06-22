@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../App.css';
 
 class MissionCard extends React.Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
-      <div data-testid="mission-card">
+      <div data-testid="mission-card" className="itemMission">
         <p data-testid="mission-year">
           {' '}
           {year}
