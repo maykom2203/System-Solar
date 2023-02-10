@@ -3,7 +3,7 @@
 
   <summary><strong>:memo: Tecnologias Ultilizadas: </strong></summary><br />
   
-  React fazendo o uso de  PropTypes para validar as props de um componente.
+  React fazendo o uso de  PropTypes para validar as props de um componente e
   Css.
 
  <summary><strong>:memo: Orientações </strong></summary><br />
